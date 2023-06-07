@@ -1,38 +1,81 @@
-.App {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: textfield;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+
+input {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  margin: 0.3vw;
+  font-size: 15px;
+}
+
+select {
+  margin-left: 5px;
+  width: 40px;
+}
+
+body {
+  background-color: #E7DBCC;
+  color: #1e1e1e;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mainApp {
+  border: 3px solid #d4d4d4;
+  border-radius: 5px;
+  border-color: black;
+  padding-bottom: 20px;
+  line-height: 2;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  border: none;
+  background-color: #1e1e1e;
   color: white;
+  padding: 7.5px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: 700;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #F5A623;
+  color: #1e1e1e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #1e1e1e;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#footer {
+  color: #1e1e1e;
+  font-size: 18px !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0.5%;
+  text-align: center;
+  font-weight: 500 !important;
 }
