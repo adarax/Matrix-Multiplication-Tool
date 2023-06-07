@@ -13,7 +13,7 @@
     ```
     npx electron-packager . "Matrix Multiplier" --platform=<platform> --arch=<arch>'
     ```
-6. Start the application (you can close the browser tab that it automatically opened).
+6. Start the application (you can close the browser tab that is automatically opened).
     ```
     npm start
     ```
