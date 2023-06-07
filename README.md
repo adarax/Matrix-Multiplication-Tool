@@ -13,7 +13,11 @@
     ```
     npx electron-packager . "Matrix Multiplier" --platform=<platform> --arch=<arch>'
     ```
-6. Navigate to the newly created directory and double click on the executable file to run the application.
+6. Start the application (you can close the browser tab that it automatically opened).
+    ```
+    npm start
+    ```
+7. Navigate to the newly created directory and double click on the executable file to run the application.
 
 <br>
 
