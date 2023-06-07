@@ -6,6 +6,7 @@ function createWindow()
         width: 1920,
         height: 1080,
         show: false, // Don't show until window is ready
+        autoHideMenuBar: true,
         webPreferences: {
             nodeIntegration: true, // Enable Node.js integration in the renderer process
         },
