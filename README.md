@@ -7,11 +7,11 @@
 3. Navigate to the root directory of the repository.
 4. Install the necessary dependencies.
     ```
-    npm install --save-dev electron-packager'
+    npm install --save-dev electron-packager
     ```
 5. Package the files. 
     ```
-    npx electron-packager . "Matrix Multiplier" --platform=<platform> --arch=<arch>'
+    npx electron-packager . "Matrix Multiplier" --platform=<platform> --arch=<arch>
     ```
 6. Start the application (you can close the browser tab that is automatically opened).
     ```
