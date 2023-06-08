@@ -15,10 +15,6 @@ function App()
   }
 
   return (
-    /** TODO: 
-     * Fix componentDidMount to call clear when the page loads
-     * Make into a desktop app with Electron package manager
-     */
     <div>
       <h1>Matrix Multiplier</h1>
 
