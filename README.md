@@ -19,8 +19,6 @@
     ```
 7. Navigate to the newly created directory and double click on the executable file to run the application.
 
-<br>
-
 ### **As a web application:**
 1. Ensure that Node.js is installed on your machine as well as npm.
 2. Clone the repository.
